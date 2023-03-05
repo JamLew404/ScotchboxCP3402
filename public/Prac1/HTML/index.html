@@ -1,26 +1,23 @@
 <!DOCTYPE html>
+<link rel="stylesheet" type="text/css" href="styles/mainstyles.css">
 <html>
-  <head>
-    <title>My Website - Home</title>
-  </head>
-  <body>
-    <header>
-      <h1>Welcome to My Website</h1>
-      <nav>
-        <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="about.html">About</a></li>
-          <li><a href="products.html">Products</a></li>
-          <li><a href="contact.html">Contact</a></li>
-        </ul>
-      </nav>
-    </header>
-    <main>
-      <h2>Home Page</h2>
-      <p>Welcome to my website. This is the home page.</p>
-    </main>
-    <footer>
-      <p>&copy; 2023 My Website</p>
-    </footer>
-  </body>
+<head>
+	<title>Plantifier</title>
+</head>
+<body>
+	<div class="container">
+		<div class="navigation">
+			<h2>Navigation</h2>
+			<ul>
+				<li><a href="index.php">Home</a></li>
+				<li><a href="about.php">About</a></li>
+				<li><a href="services.php">Services</a></li>
+				<li><a href="contact.php">Contact</a></li>
+			</ul>
+		</div>
+		<div class="main">
+			<?php include('indexcontent.php'); ?>
+		</div>
+	</div>
+</body>
 </html>
